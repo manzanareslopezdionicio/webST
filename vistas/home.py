@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("Pagina de inicio")
+st.title("Pagina de inicio 🙋🏻‍♀️")
