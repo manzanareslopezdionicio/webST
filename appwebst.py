@@ -16,7 +16,7 @@ acerca_de_page = st.Page(
 project_1_page = st.Page(
     page="vistas/ventas.py",
     title="ventas",
-    icon="",
+    icon="🛒",
 )
 project_2_page = st.Page(
     page="vistas/chatbot.py",
@@ -24,7 +24,7 @@ project_2_page = st.Page(
     icon="🤖",
     #icon=":material/smart_toy:",
 )
-#st.page_link("home.py", label="Home", icon=":material/home:")
+
 pg = st.navigation(
     {
         "Información:": [home, acerca_de_page],
@@ -32,12 +32,9 @@ pg = st.navigation(
     }
 )
 
-
-
 # --- SHARED ON ALL PAGES ---
 st.logo("img/chatbot.png")
 st.sidebar.markdown("Elaborado con ❤️ por [Streamlit](https://streamlit.io/gallery)")
-
 
 # --- RUN NAVIGATION ---
 pg.run()
