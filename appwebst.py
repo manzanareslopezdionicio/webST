@@ -1,7 +1,7 @@
 import streamlit as st
 
-home = st.Page  (
-    page="views/home.py",
+home = st.Page(
+    page="vistas/home.py",
     title="Inicio",
     icon="🏠",
     #icon=":material/home:",
@@ -9,22 +9,22 @@ home = st.Page  (
 )
 
 acerca_de_page = st.Page(
-    page="views/acerca_de.py",
+    page="vistas/acerca_de.py",
     title="Acerca de",
     icon=":material/account_circle:",
 )
 project_1_page = st.Page(
-    page="views/ventas.py",
+    page="vistas/ventas.py",
     title="ventas",
     icon="",
 )
 project_2_page = st.Page(
-    page="views/chatbot.py",
+    page="vistas/chatbot.py",
     title="Chat Bot",
     icon="🤖",
     #icon=":material/smart_toy:",
 )
-#st.page_link("home.py", label="Home", icon="")
+#st.page_link("home.py", label="Home", icon=":material/home:")
 pg = st.navigation(
     {
         "Información:": [home, acerca_de_page],
