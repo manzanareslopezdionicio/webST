@@ -32,9 +32,9 @@ pg = st.navigation(
     }
 )
 
-# --- SHARED ON ALL PAGES ---
+# --- LOGO Y DERECHOS DE ACTOR---
 st.logo("img/chatbot.png")
 st.sidebar.markdown("Elaborado con ❤️ por [Streamlit](https://streamlit.io/gallery)")
 
-# --- RUN NAVIGATION ---
+# --- EJECUTAR NAVEGACION ---
 pg.run()
